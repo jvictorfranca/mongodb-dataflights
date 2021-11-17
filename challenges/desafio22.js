@@ -1,4 +1,3 @@
-use("dataFlights");
 db.voos.findOne({ $and: [
   {
     $or: [
